@@ -8,10 +8,12 @@ to convert a normal sketch to this system:
 - change include ofMain to baseScene
 - comment out references to frame and cam in the scene (it exists now in baseScene) 
 
+```
 //        ofEasyCam cam;
 //    
 //        ofPoint frames[30][24];         // 30 frames, 24 points per frame
 //        ofPoint frames2d[30][24];         // 30 frames, 24 points per frame
+```
 
 - comment out include "data.h" in the scene cpp file
 - comment out the code that transfers the data into frames and frames2d
