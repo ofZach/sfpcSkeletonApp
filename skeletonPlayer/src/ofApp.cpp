@@ -5,6 +5,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
+    ofSetFullscreen(true);
     ofSetVerticalSync(false);
     ofSetFrameRate(60);
     ofHideCursor();
@@ -35,6 +36,16 @@ void ofApp::setup(){
     //----------------------------------------------------------------
     
     //vector < baseScene * > scenes;
+    
+    
+    scenes.push_back(new ailadiScene());
+    scenes.push_back(new paoScene1());
+     scenes.push_back(new paoScene2());
+    scenes.push_back(new hansScene());
+    scenes.push_back(new philScene());
+    
+    
+    
     scenes.push_back(new yeliScene());
     scenes.push_back(new rachelScene());
     scenes.push_back(new kellyScene());
@@ -67,6 +78,7 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 
+    ofHideCursor();
     scenes[currentScene]->update();
     
     if (ofGetFrameNum() % (60 * 10) == 0){

@@ -11,6 +11,11 @@
 		2F18074B208A8C6400AD5D1B /* kellyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F180749208A8C6400AD5D1B /* kellyScene.cpp */; };
 		2F18074F208A8D1D00AD5D1B /* rachelScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F18074D208A8D1D00AD5D1B /* rachelScene.cpp */; };
 		2F180753208A8DBF00AD5D1B /* yeliScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F180751208A8DBF00AD5D1B /* yeliScene.cpp */; };
+		2F18075A208BA09F00AD5D1B /* ailadiScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F180758208BA09F00AD5D1B /* ailadiScene.cpp */; };
+		2F18075E208BA28B00AD5D1B /* hansScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F18075C208BA28B00AD5D1B /* hansScene.cpp */; };
+		2F180762208BA43300AD5D1B /* philScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F180760208BA43300AD5D1B /* philScene.cpp */; };
+		2F180766208BAA3900AD5D1B /* paoScene1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F180764208BAA3800AD5D1B /* paoScene1.cpp */; };
+		2F180769208BAB6900AD5D1B /* paoScene2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F180768208BAB6900AD5D1B /* paoScene2.cpp */; };
 		2F5BE59B208A6A6800BEB52C /* sukanyaScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BE599208A6A6800BEB52C /* sukanyaScene.cpp */; };
 		2F5BE59F208A6FA300BEB52C /* sarahScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BE59D208A6FA300BEB52C /* sarahScene.cpp */; };
 		2F5BE5A3208A708000BEB52C /* sydScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BE5A1208A708000BEB52C /* sydScene.cpp */; };
@@ -63,6 +68,16 @@
 		2F18074E208A8D1D00AD5D1B /* rachelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rachelScene.h; sourceTree = "<group>"; };
 		2F180751208A8DBF00AD5D1B /* yeliScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yeliScene.cpp; sourceTree = "<group>"; };
 		2F180752208A8DBF00AD5D1B /* yeliScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yeliScene.h; sourceTree = "<group>"; };
+		2F180758208BA09F00AD5D1B /* ailadiScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ailadiScene.cpp; sourceTree = "<group>"; };
+		2F180759208BA09F00AD5D1B /* ailadiScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ailadiScene.h; sourceTree = "<group>"; };
+		2F18075C208BA28B00AD5D1B /* hansScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hansScene.cpp; sourceTree = "<group>"; };
+		2F18075D208BA28B00AD5D1B /* hansScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hansScene.h; sourceTree = "<group>"; };
+		2F180760208BA43300AD5D1B /* philScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = philScene.cpp; sourceTree = "<group>"; };
+		2F180761208BA43300AD5D1B /* philScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = philScene.h; sourceTree = "<group>"; };
+		2F180764208BAA3800AD5D1B /* paoScene1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = paoScene1.cpp; sourceTree = "<group>"; };
+		2F180765208BAA3800AD5D1B /* paoScene1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paoScene1.h; sourceTree = "<group>"; };
+		2F180767208BAB6900AD5D1B /* paoScene2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paoScene2.h; sourceTree = "<group>"; };
+		2F180768208BAB6900AD5D1B /* paoScene2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = paoScene2.cpp; sourceTree = "<group>"; };
 		2F1AE528208A66F8007DF5EA /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
 		2F1AE529208A6738007DF5EA /* baseScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseScene.h; sourceTree = "<group>"; };
 		2F5BE599208A6A6800BEB52C /* sukanyaScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sukanyaScene.cpp; sourceTree = "<group>"; };
@@ -139,6 +154,44 @@
 				2F180752208A8DBF00AD5D1B /* yeliScene.h */,
 			);
 			path = yeli;
+			sourceTree = "<group>";
+		};
+		2F180757208BA09F00AD5D1B /* ailadi */ = {
+			isa = PBXGroup;
+			children = (
+				2F180758208BA09F00AD5D1B /* ailadiScene.cpp */,
+				2F180759208BA09F00AD5D1B /* ailadiScene.h */,
+			);
+			path = ailadi;
+			sourceTree = "<group>";
+		};
+		2F18075B208BA28B00AD5D1B /* hans */ = {
+			isa = PBXGroup;
+			children = (
+				2F18075C208BA28B00AD5D1B /* hansScene.cpp */,
+				2F18075D208BA28B00AD5D1B /* hansScene.h */,
+			);
+			path = hans;
+			sourceTree = "<group>";
+		};
+		2F18075F208BA43300AD5D1B /* phil */ = {
+			isa = PBXGroup;
+			children = (
+				2F180760208BA43300AD5D1B /* philScene.cpp */,
+				2F180761208BA43300AD5D1B /* philScene.h */,
+			);
+			path = phil;
+			sourceTree = "<group>";
+		};
+		2F180763208BAA3800AD5D1B /* pao */ = {
+			isa = PBXGroup;
+			children = (
+				2F180768208BAB6900AD5D1B /* paoScene2.cpp */,
+				2F180767208BAB6900AD5D1B /* paoScene2.h */,
+				2F180764208BAA3800AD5D1B /* paoScene1.cpp */,
+				2F180765208BAA3800AD5D1B /* paoScene1.h */,
+			);
+			path = pao;
 			sourceTree = "<group>";
 		};
 		2F5BE598208A6A6800BEB52C /* sukanya */ = {
@@ -254,6 +307,10 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				2F180763208BAA3800AD5D1B /* pao */,
+				2F18075F208BA43300AD5D1B /* phil */,
+				2F18075B208BA28B00AD5D1B /* hans */,
+				2F180757208BA09F00AD5D1B /* ailadi */,
 				2F180750208A8DBF00AD5D1B /* yeli */,
 				2F18074C208A8D1D00AD5D1B /* rachel */,
 				2F180748208A8C6400AD5D1B /* kelly */,
@@ -371,18 +428,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F18075E208BA28B00AD5D1B /* hansScene.cpp in Sources */,
 				2F180747208A8BD400AD5D1B /* gonzaScene.cpp in Sources */,
 				2F180753208A8DBF00AD5D1B /* yeliScene.cpp in Sources */,
+				2F18075A208BA09F00AD5D1B /* ailadiScene.cpp in Sources */,
 				2F18074F208A8D1D00AD5D1B /* rachelScene.cpp in Sources */,
 				2F5BE5AD208A800100BEB52C /* fame2Scene.cpp in Sources */,
 				2F5BE59F208A6FA300BEB52C /* sarahScene.cpp in Sources */,
 				2F5BE59B208A6A6800BEB52C /* sukanyaScene.cpp in Sources */,
 				2F5BE5BA208A831500BEB52C /* ofxGif.cpp in Sources */,
 				2F5BE5A3208A708000BEB52C /* sydScene.cpp in Sources */,
+				2F180766208BAA3900AD5D1B /* paoScene1.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				2F180762208BA43300AD5D1B /* philScene.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				2F5BE5B9208A831500BEB52C /* rileyApp.cpp in Sources */,
 				2F5BE5AE208A800100BEB52C /* fame3Scene.cpp in Sources */,
+				2F180769208BAB6900AD5D1B /* paoScene2.cpp in Sources */,
 				2F18074B208A8C6400AD5D1B /* kellyScene.cpp in Sources */,
 				2F5BE5AF208A800100BEB52C /* fame1Scene.cpp in Sources */,
 				2F5BE5B3208A822F00BEB52C /* agnesScene.cpp in Sources */,

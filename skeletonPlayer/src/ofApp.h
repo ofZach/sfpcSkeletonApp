@@ -15,7 +15,11 @@
 #include "kellyScene.h"
 #include "rachelScene.h"
 #include "yeliScene.h"
-
+#include "ailadiScene.h"
+#include "hansScene.h"
+#include "philScene.h"
+#include "paoScene1.h"
+#include "paoScene2.h"
 class ofApp : public ofBaseApp{
 
 	public:
